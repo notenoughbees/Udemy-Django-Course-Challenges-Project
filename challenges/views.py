@@ -45,4 +45,5 @@ def monthly_challenge(request, month):
             "challenge_text": challenge_text,
         })
     except:
-        return HttpResponseNotFound("<h3>This month is not supported!</h3>")
+        response_data = render_to_string("404.html")
+        return HttpResponseNotFound(response_data)
