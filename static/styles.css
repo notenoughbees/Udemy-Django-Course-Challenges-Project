@@ -3,3 +3,8 @@
 html {
     font-family: "Yusei Magic", sans-serif;
 }
+
+body {
+    margin: 0;
+    background-color: #2e2e30
+}
